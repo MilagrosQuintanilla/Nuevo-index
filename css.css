@@ -1,0 +1,18 @@
+body {
+    background-image: url("img/9-95760_gradient-desktop-wallpaper-gradient-wallp-data-src-gradient.jpg");
+background-size: cover;
+    
+}
+
+*{font-family: 'Secular One', sans-serif;}
+
+header{
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    display: inline;
+
+    }
