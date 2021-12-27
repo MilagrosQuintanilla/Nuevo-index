@@ -1,0 +1,120 @@
+body {
+    background-image: linear-gradient(to right, #1b1b1b 0%, rgb(24, 24, 24) 100%);
+    ;
+}
+
+* {
+    color: rgb(238, 238, 238);
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.enviar {
+    color: rgb(174, 0, 255);
+}
+
+img:hover {
+    opacity: 1;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0, 0, 0, 0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(107, 107, 107, 0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(109, 107, 107, 0.8);
+    box-shadow: 0px 0px 20px rgba(161, 161, 161, 0.74);
+
+}
+
+.letra {
+    color: black;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.derecha1 {
+    text-align: right;
+}
+
+.derecha2 {
+    text-align: right;
+}
+
+.mdio {
+    text-align: center;
+}
+
+.imagen {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 10rem;
+    font-weight: bolder;
+}
+
+
+header {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.li {
+    text-decoration: none;
+    display: inline;
+    margin-left: 4rem;
+}
+
+.li :hover {
+    color: rgb(121, 121, 121);
+}
+
+.logo {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.barra {
+    text-decoration: none;
+}
+
+.videomedio {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.contenedor {
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(500px);
+}
+
+.cont {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+}
+
+.web {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
